@@ -1,0 +1,282 @@
+/* Style page for Gabriel Wozniak's website */
+
+body {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: 'Neue Montreal Regular';
+    font-weight: normal;
+    color: #333333;
+    -webkit-text-size-adjust: 100%;
+}
+
+img {
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    body {
+        margin-left: 5em;
+        margin-right: 5em;
+        font-size: 1.2em;
+        max-width: 50em;
+    }
+}
+
+.grouped-links {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .grouped-links {
+        text-align: left;
+    }
+}
+
+a, a:link {
+    color: #40a8e8;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #604ae0;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #7bd7fc;
+}
+
+a:active {
+    color: #fc571b;
+    text-decoration: none;
+}
+
+.name {
+    font-size: 1.25em;
+    margin-top: 0.67em;
+    margin-bottom: 0;
+    font-family: 'Neue Montreal Light';
+}
+
+.name-big {
+    font-size: 2em;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.linkbar {
+    margin-top: 0em;
+}
+
+td.list {
+    vertical-align: top;
+}
+
+td.listdate {
+    white-space: nowrap;
+}
+
+.rst-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-wrapper {
+    border-radius: 20px;
+    background-color: #ededed;
+    text-align: center; /* centers inline-block children */
+    padding: 20px;
+}
+
+.card-wrapper audio {
+    width: 100%;
+}
+
+.video-wrapper {
+    width: 100%;
+    margin: 0 auto;   /* center horizontally */
+    overflow: hidden;
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    max-height: 100%; /* important to avoid overflow */
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+
+.align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.pixelart {
+    image-rendering: pixelated;       /* Modern browsers */
+    image-rendering: crisp-edges;     /* Older spec / Safari */
+    -ms-interpolation-mode: nearest-neighbor; /* Old IE */
+}
+
+
+.image-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 300px; /* Optional: limit row width */
+    margin: 0 auto;     /* This centers the row */
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .image-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        max-width: 600px; /* Optional: limit row width */
+        margin: 0 auto;     /* This centers the row */
+        align-items: center;
+    }
+}
+
+.audio-card {
+    display: flex;         /* put children side by side */
+    align-items: center;   /* optional: vertically align */
+    width: 100%;           /* or a fixed width if you want */
+    column-gap: 20px;
+    flex: 1 1 auto;
+}
+
+.audio-icon {
+    position: relative;
+    width: 96px;                 /* your fixed image column width */
+    flex: 0 0 96px;              /* don’t grow/shrink */
+    overflow: hidden;            /* safety if you use 'cover' */
+    align-self: stretch;
+}
+
+.audio-icon img {
+    position: absolute;          /* removed from layout: can't set row height */
+    inset: 0;                    /* fill the .media box */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;         /* keep whole image; use 'cover' to crop-fill */
+}
+
+.playback {
+    flex: 1;               /* take up remaining space */
+    flex-grow: 1;
+    min-width: 0;          /* important: allows shrinking! */
+    text-align: left;
+}
+
+.row-figure {
+    margin-top: 16px;
+    max-width: 300px;
+    width: 100%;
+    flex: 1 1 200px; /* Grow, shrink, basis */
+    text-align: center;
+}
+
+.row-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.row-figure p {
+    word-wrap: break-word;
+}
+
+.row-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .name-big {
+        font-size: 3.75em;
+    }
+}
+
+.name a {
+    color: #333333;
+    text-decoration: none;
+}
+.name a:hover {
+    color: #555555;
+}
+
+.page-title {
+    font-size: 2.4em;
+    margin-block: 0.67em;
+    font-family: 'Editorial New Regular'
+}
+
+h1 { font-size: 2em; font-family: 'Editorial New Bold'; font-weight: normal; }
+h2 { font-size: 1.5em; font-family: 'Editorial New Bold'; font-weight: normal; }
+h3 { font-size: 1.10em; font-family: 'Neue Montreal Bold'; font-weight: normal; }
+h4 { font-size: 1.0em; font-family: 'Editorial Old Regular'; font-weight: normal; }
+
+b { font-weight: normal; font-family: 'Neue Montreal Bold'; }
+strong { font-weight: normal; font-family: 'Neue Montreal Bold'; }
+em { font-weight: normal; font-family: 'Neue Montreal Italic'; font-style: normal; }
+
+.codeholder {
+    display: block;
+    background-color: #f3f3f3;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.2em;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.linenos {
+    color: #aaaaaa;
+    padding-right:0.5em;
+}
+
+#headercanvas {
+    vertical-align: sub;
+    width: 1em;
+    height: 1em;
+}
+
+#headercanvas-holder {
+    display: inline-block;
+}
+
+.figure {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-banner {
+    max-width: 100%;
+}

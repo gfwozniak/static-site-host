@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Editorial New Regular';
+  src: url('../fonts/PPEditorialNew-Regular.woff') format('truetype');
+  font-weight: 100;
+} 
+
+@font-face {
+  font-family: 'Editorial New Thin';
+  src: url('../fonts/PPEditorialNew-Thin.woff') format('truetype');
+  font-weight: 100;
+} 
+
+@font-face {
+  font-family: 'Editorial New Bold';
+  src: url('../fonts/PPEditorialNew-Bold.woff') format('truetype');
+  font-weight: 100;
+} 
+
+@font-face {
+  font-family: 'Neue Montreal Bold';
+  src: url('../fonts/PPNeueMontreal-Bold.woff') format('truetype');
+  font-weight: 100;
+} 
+
+@font-face {
+  font-family: 'Neue Montreal Regular';
+  src: url('../fonts/PPNeueMontreal-Regular.woff') format('truetype');
+  font-weight: 100;
+} 
+
+@font-face {
+  font-family: 'Neue Montreal Light';
+  src: url('../fonts/PPNeueMontreal-Light.woff') format('truetype');
+  font-weight: 100;
+} 
+
+@font-face {
+  font-family: 'Neue Montreal Thin';
+  src: url('../fonts/PPNeueMontreal-Thin.woff') format('truetype');
+  font-weight: 100;
+} 
+
+@font-face {
+  font-family: 'Neue Montreal Italic';
+  src: url('../fonts/PPNeueMontreal-Italic.woff') format('truetype');
+  font-weight: 100;
+} 
