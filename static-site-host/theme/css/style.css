@@ -37,6 +37,10 @@ a, a:link {
     text-decoration: none;
 }
 
+a.tag {
+    text-decoration: underline;
+}
+
 a:visited {
     color: #604ae0;
     text-decoration: none;
@@ -62,7 +66,7 @@ a:active {
     font-size: 2em;
 }
 
-p.italic {
+div.italic {
     font-style: italic;
 }
 
@@ -231,13 +235,20 @@ td.listdate {
 .page-title {
     font-size: 2.4em;
     margin-block: 0.67em;
+    margin-bottom: 0em;
     font-family: 'Editorial New Regular'
 }
 
+.author {
+    font-size: 1.2em;
+    font-family: 'Editorial New Regular';
+    color: #838383;
+}
+
 h1 { font-size: 2em; font-family: 'Editorial New Bold'; font-weight: normal; }
-h2 { font-size: 1.5em; font-family: 'Editorial New Bold'; font-weight: normal; }
+h2 { font-size: 1.8em; font-family: 'Editorial New Bold'; font-weight: normal; }
 h3 { font-size: 1.10em; font-family: 'Neue Montreal Bold'; font-weight: normal; }
-h4 { font-size: 1.0em; font-family: 'Editorial Old Regular'; font-weight: normal; }
+h4 { font-size: 1.0em; font-family: 'Editorial New Regular'; font-weight: normal; }
 
 b { font-weight: normal; font-family: 'Neue Montreal Bold'; }
 strong { font-weight: normal; font-family: 'Neue Montreal Bold'; }
@@ -279,4 +290,34 @@ em { font-weight: normal; font-family: 'Neue Montreal Italic'; font-style: norma
 
 .article-banner {
     max-width: 100%;
+}
+
+.view-switcher {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.view-btn {
+  background: none;
+  border: none;
+  font-size: 2em; 
+  font-family: 'Editorial New Regular'; 
+  font-weight: normal;
+  padding: 0rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  color: #cccccc;              /* faded when not active */
+  transition: color 0.2s ease;
+}
+
+.view-btn:hover {
+  color: #000;              /* darker on hover */
+}
+
+.view-btn.active {
+  color: #000;              /* fully dark when selected */
+}
+
+.hidden {
+  display: none;
 }
