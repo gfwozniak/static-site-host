@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gabriel Wozniak</title><link href="https://gabrielwozniak.com/" rel="alternate"/><link href="https://gabrielwozniak.com/feeds/all.atom.xml" rel="self"/><id>https://gabrielwozniak.com/</id><updated>2026-02-08T00:00:00-06:00</updated><entry><title>VRchaeology (The: Stu/dio)</title><link href="https://gabrielwozniak.com/vrchaeology-the-studio.html" rel="alternate"/><published>2026-02-08T00:00:00-06:00</published><updated>2026-02-08T00:00:00-06:00</updated><author><name>Gabriel Wozniak</name></author><id>tag:gabrielwozniak.com,2026-02-08:/vrchaeology-the-studio.html</id><summary type="html">&lt;div class="section" id="overview"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gabriel Wozniak</title><link href="https://gabrielwozniak.com/" rel="alternate"/><link href="https://gabrielwozniak.com/feeds/all.atom.xml" rel="self"/><id>https://gabrielwozniak.com/</id><updated>2026-02-08T00:00:00-06:00</updated><entry><title>VRchaeology (The Stu/dio)</title><link href="https://gabrielwozniak.com/vrchaeology-the-studio.html" rel="alternate"/><published>2026-02-08T00:00:00-06:00</published><updated>2026-02-08T00:00:00-06:00</updated><author><name>Gabriel Wozniak</name></author><id>tag:gabrielwozniak.com,2026-02-08:/vrchaeology-the-studio.html</id><summary type="html">&lt;div class="section" id="overview"&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;From May 2025 to October 2025, I had the privelege of managing the VRchaeology (VR Archaeology) project at &lt;a class="reference external" href="https://games.illinois.edu/"&gt;The Stu/dio in Urbana-Champaign&lt;/a&gt;. The VRchaeology project is an educational VR experience designed to give students hands-on experience with real-world archaeological methods without having to leave the classroom. The VR …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="overview"&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;From May 2025 to October 2025, I had the privelege of managing the VRchaeology (VR Archaeology) project at &lt;a class="reference external" href="https://games.illinois.edu/"&gt;The Stu/dio in Urbana-Champaign&lt;/a&gt;. The VRchaeology project is an educational VR experience designed to give students hands-on experience with real-world archaeological methods without having to leave the classroom. The VR experience was built in Unreal Engine and runs on the Meta Quest headset.&lt;/p&gt;
-&lt;div style="max-width: 600px;" class="video-wrapper"&gt;&lt;div class="video-container"&gt;&lt;iframe src="https://www.youtube.com/embed/OBXz2iuCSIQ" title="VRchaeology Gameplay Trailer" frameborder="0" allow="web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div style="max-width: 600px;" class="video-wrapper"&gt;&lt;div class="video-container"&gt;&lt;iframe src="https://www.youtube.com/embed/m_5ZPABhV64" title="VRchaeology Gameplay Edit" frameborder="0" allow="web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;div class="section" id="lab-summaries"&gt;
 &lt;h2&gt;Lab Summaries&lt;/h2&gt;
 &lt;p&gt;VRchaeology is split into eight different labs where each level is intended to be a lab for one week in the classroom. A summary of all labs are given below:&lt;/p&gt;
@@ -30,7 +30,7 @@
 &lt;/div&gt;
 &lt;div class="section" id="wall-stratigraphy"&gt;
 &lt;h3&gt;Wall Stratigraphy&lt;/h3&gt;
-&lt;p&gt;The wall stratigraphy level requires the player to flatten one wall of a fully dug pit. After flattening the wall,  the player is given the opportunity to mark the different layers present in the soil, and take measurements of the different layers.&lt;/p&gt;
+&lt;p&gt;The wall stratigraphy level requires the player to flatten one wall of a fully dug pit. After flattening the wall, the player is given the opportunity to mark the different layers present in the soil, and take measurements of the different layers.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="credits"&gt;
@@ -69,8 +69,8 @@ Daniel Cermak (Director), Robbie Sieczkowski (Producer), Max Yang (Programming L
 &lt;p&gt;&lt;strong&gt;Archaeology Content Support&lt;/strong&gt; &lt;br/&gt;
 Emma Verstraete, Alexandra Zachwieja&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="section" id="screenshots"&gt;
-&lt;h2&gt;Screenshots&lt;/h2&gt;
+&lt;div class="section" id="environment-screenshots"&gt;
+&lt;h2&gt;Environment Screenshots&lt;/h2&gt;
 &lt;div class="section" id="exploration-geology"&gt;
 &lt;h3&gt;Exploration: Geology&lt;/h3&gt;
 &lt;div style="max-width: 1100px;" class="image-row"&gt;
